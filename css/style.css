@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+
+/* estilo mobile */
+
+@media screen and (min-width:320px) and (max-width:1000px){
+    #imagen-index{
+        display: none;
+    }
+
+    #imagen-galeria{
+        display: none;
+    }
+
+}
+
+body{
+    background-color: #210b6e;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+
+/* no me funciono y no comprendo como hacer sticky el navbar de bootstrap */
+
+#navbar-index{
+    position: sticky;
+    top: 0;
+}
+#div-header-index{
+    background-image: url(../images/mecanico-automoviles-trabajando-garaje-servicio-reparacion_146671-18358.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+
+
+#h3-header{
+    color: rgb(174, 147, 147);
+}
+
+
+#logo-index{
+    margin: 250px;
+}
+
+#main-index{
+    margin: 20px;
+    padding: 30px;
+    background-color: #222135;
+}
+
+
+#section-index{
+    margin: 20px;
+    padding: 30px;
+    background-color: #222135;
+}
+
+#section-imagen-index{
+    background-color: #222135;
+    display: flex;
+    justify-content: center;
+}
+
+#imagen-index:hover{
+    box-shadow: 4px 4px black;
+}
+
+#footer-index{
+    background-image: url(../images/metal-plate-floor-texture-pattern-in-industrial-plant-background-wallpaper-and-decoration-concept-3d-illustation-rendering-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* CSS de Galeria */
+
+.carousel-inner img{
+    width: 100%;
+    max-height: 500px;
+}
+
+#main-galeria{
+    background-color: #140353;
+}
+
+
+#section-imagen-galeria{
+    background-color: #140353;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+#imagen-galeria:hover{
+    box-shadow: 2px 2px black;
+}
